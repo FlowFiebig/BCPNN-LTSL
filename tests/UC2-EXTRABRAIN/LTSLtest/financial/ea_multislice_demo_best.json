@@ -1,0 +1,15 @@
+{
+  "objective": "rmse_validation",
+  "fitness": 0.03865072262677284,
+  "K": 14,
+  "K_mode": "logarithmic",
+  "mean_nbin": 37,
+  "deriv1st_nbin": 13,
+  "taumax": 1500.0,
+  "rmse_train": 0.030243256987401622,
+  "rmse_validation": 0.03865072262677284,
+  "rmse_unseen": 0.03901716882164255,
+  "rmse_persistence": 0.0011795044416679525,
+  "base_paramfile": "Parameters_multislice_demo.par",
+  "time_budget_s": 28800.0
+}

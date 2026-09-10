@@ -1,0 +1,24 @@
+# Generated simulation outputs (too large for GitHub; regenerate by running notebooks)
+*.bin
+features.dat
+features.centers.npy
+
+# Compiled CUDA/C++ artifacts
+*.o
+*.a
+ltslmain
+libsrc_cu/bin/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+
+# Editor / OS junk
+*~
+.DS_Store
+
+# Third-party paper; cite Fatouros et al. 2023 instead of redistributing the PDF
+documentation/DeepVAR.pdf

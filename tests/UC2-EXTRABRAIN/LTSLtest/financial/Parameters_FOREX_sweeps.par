@@ -1,0 +1,22 @@
+K                25
+K_mode           linear
+feature_set      return_variance
+return_nbin      79  #decode-target channel (log return; displayed as ratio via exp); C++ alias of mean_nbin
+variance_nbin    70  #secondary channel (trailing log-return variance); C++ alias of deriv1st_nbin
+variance_window  14  #trailing log-return variance window; also feature/calendar align
+binmode          rbf  #or rbf-quantile.  rbf = linear centres on 0.25% winsor range; rbf-quantile = empirical-quantile centres + adaptive sigma
+infilename_md    features.dat
+timeseries_file  FOREX.csv  #wide CSV in datasets/; used by Mains.multislice()
+taumin           39.125
+taumax           751.86
+offs             1
+warmup_pat       0  #forward-only steps at ticker-to-ticker transitions (k>0)
+trnpat           3256  #per-ticker per-block training rows
+vanpat           20  #per-ticker per-block validation rows
+tenpat           1082  #per-ticker per-block test rows
+ngenstep         0  #forced to 0 by Mains.multislice()
+outagain_gen     1.0
+fs               1.0
+bdebias          1  #debias "fix" by Fable5
+tickers          AUDUSD,JPYUSD,GBPUSD,EURUSD  #defaults to all tickers if commented out or left empty
+schedule_file    schedule.dat  #written by Mains.multislice(); one row per block

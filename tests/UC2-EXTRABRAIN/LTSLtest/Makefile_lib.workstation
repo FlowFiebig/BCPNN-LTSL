@@ -1,0 +1,40 @@
+# Target executable
+# TARGET = ltslmain_m
+# TARGET = ltslmain_md1_m
+#TARGET = ltslmain_md1
+TARGET = ltslmain
+EXEC   = ./$(TARGET)
+
+# Paths to the BCPNN library
+INCDIR = ../../../libsrc_cu/include
+LIBDIR = ../../../libsrc_cu
+
+# Compiler
+NVCC = nvcc
+
+# Flags
+CFLAGS = -O3 -std=c++14 -I $(INCDIR) -c -arch=sm_75 -rdc=true
+# CFLAGS = -g -std=c++14 -I $(INCDIR) -c -arch=sm_75 -rdc=true
+LFLAGS = -arch=sm_75 -lcudart -lcurand -lcublas -L$(LIBDIR) -lbcpnn-2.2
+
+# Only one local source file remains
+SRCS = $(TARGET).cpp
+
+# Object files
+OBJS = $(SRCS:.cpp=.o)
+
+# Default target
+
+all: $(EXEC)
+
+# Link the final program
+$(EXEC): $(OBJS)
+	$(NVCC) $(OBJS) $(LFLAGS) -o $@
+
+# Compile main program source
+%.o: %.cpp
+	$(NVCC) $(CFLAGS) $< -o $@
+
+# Clean
+clean:
+	rm -f $(OBJS) $(EXEC) *.dat *.bin *~

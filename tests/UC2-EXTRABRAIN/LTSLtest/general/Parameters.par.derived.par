@@ -1,0 +1,19 @@
+K                12
+K_mode           linear
+mean_nbin        60
+deriv1st_nbin    30
+binmode          rbf
+infilename_md    features.dat
+timeseries_file  mgdata.pkl  #legacy single-series source consumed by Mains.general()
+taumin           1.0
+taumax           1500
+offs             1
+trnpat           456695          #ignored by Mains.multi() (derived from train_files); used by Mains.general()
+vanpat           63180           #ignored by Mains.multi() (derived from val_files);  used by Mains.general()
+tenpat           63180           #ignored by Mains.multi() (derived from test_files); used by Mains.general()
+ngenstep         0
+outagain_gen     1.0
+fs               1.0
+train_files      sp100_daily_prices:AAPL,ABBV,ABT,ACN,ADBE,AIG,ALL,AMT,AVGO,AXP,BAC,BK,BKNG,BLK,BMY,C,CHTR,CL,COF,COP,COST,CRM,CSCO,CVS,DHR,DIS,DOW,EMR,EXC,FDX,GD,GE,GILD,GM,GOOGL,HD,HON,INTC,KHC,LIN,LLY,LMT,LOW,MA,MDLZ,MDT,MET,META,MMM,MO,MRK,MS,MSFT,NEE,NFLX,NKE,ORCL,PEP,PFE,PM,PYPL,QCOM,RTX,SBUX,SLB,SO,SPG,TGT,TMO,TXN,UNH,UNP,UPS,USB,V,VZ,WBA,WFC
+val_files        sp100_daily_prices:GS,IBM,MCD,AMGN,CMCSA,DUK,CAT,DD,F,AMZN
+test_files       sp100_daily_prices:NVDA,JPM,JNJ,XOM,WMT,BA,KO,CVX,T,PG

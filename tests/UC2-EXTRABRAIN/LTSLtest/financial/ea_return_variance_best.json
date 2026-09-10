@@ -1,0 +1,17 @@
+{
+  "objective": "rmse_validation",
+  "fitness": 0.017703283517454493,
+  "K": 14,
+  "K_mode": "linear",
+  "return_nbin": 4,
+  "variance_nbin": 20,
+  "variance_window": 19,
+  "binmode": "rbf-quantile",
+  "taumax": 1000.0,
+  "rmse_train": 0.01952471167477167,
+  "rmse_validation": 0.017703283517454493,
+  "rmse_unseen": 0.016500646982360614,
+  "rmse_persistence": 0.025094083544508934,
+  "base_paramfile": "Parameters_multislice_return_variance.par",
+  "time_budget_s": 259200.0
+}

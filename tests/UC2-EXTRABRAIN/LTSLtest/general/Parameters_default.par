@@ -1,0 +1,15 @@
+K               20             #21/         #best for sos_unseen/generation
+K_mode          logarithmic    #logarithmic or linear  #spacing of LTSL time constants between taumin and taumax
+mean_nbin       50             #79/         #best for sos_unseen/generation, y resolution 
+deriv1st_nbin   10             #7/          #best for sos_unseen/generation. dy resolution (gets folded into outer product with mean before the run)
+binmode         rbf            #rbf             # uni (uni now defunct)
+infilename_md   features.dat   #feature-pattern input file consumed by ltslmain (already extracted and combined features)
+timeseries_file mgdata.pkl     #datacache (looked up in ./datasets/). Length follows data / pattern demand (trnpat+vanpat+tenpat+ngenstep + feature cutoff + rolling window); if missing/too short: mg in filename -> mackey_glass, sos -> sum_of_sinusoids, else ./datasets/<stem>.csv (OHLCV) -> ohlcv_close
+taumin          1.             #1           #smallest LTSL time constant (= effective filter timestep; ltslmain currently forces dt = 1/fs = taumin internally)
+taumax          500            #870/        #best for sos_unseen/generation, slowest timeconstant in the delayline (c now determined by taumin, taumax, K)
+offs            1              #1               #offs-step-ahead prediction horizon (training feeds ltslpop=feats[p] with target outpop=feats[p+offs] in ltslmain.cpp). offs=0 is zero-lag/identity (trivial), offs=1 predicts 1 step ahead, offs=N predicts N steps ahead.
+trnpat          10000          #6000/       #6000 best for sos_unseen/generation (for up to 6000!) #number of patterns used for training
+vanpat          2000           #0               #number of patterns used for validation (held-out after training; 0 disables the phase)
+tenpat          1000           #1000            #number of patterns used for testing
+ngenstep        0
+outagain_gen    1.0            #1.0             #softmax gain on outpop_md1 applied during free generation only (Pop default again=1; in cpp Pop.cpp: act = exp(again*sup), so larger=sharper, smaller=flatter/uniform)

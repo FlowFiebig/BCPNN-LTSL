@@ -1,0 +1,22 @@
+K                15
+K_mode           logarithmic
+feature_set      return_variance
+return_nbin      79
+variance_nbin    70
+variance_window  14
+binmode          rbf  # rbf = linear centres on 0.5% winsor range; rbf-quantile = empirical-quantile centres + adaptive sigma
+infilename_md    features.dat
+timeseries_file  FOREX.csv  #legacy single-series source consumed by Mains.general()
+taumin           39.125
+taumax           751.86
+offs             1
+warmup_pat       0
+trnpat           3256  #Mains.general(): total training rows. Mains.multislice(): per-ticker per-block training rows.
+vanpat           20  #Mains.general(): total validation rows. Mains.multislice(): per-ticker per-block validation rows.
+tenpat           1082  #Mains.general(): total test rows. Mains.multislice(): per-ticker per-block test rows.
+ngenstep         0
+outagain_gen     1.0
+fs               1.0
+bdebias          1
+tickers          AUDUSD,JPYUSD,GBPUSD,EURUSD
+schedule_file    schedule.dat  #written by Mains.general/multislice before ltslmain; source of truth for phase totals

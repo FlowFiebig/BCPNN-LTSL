@@ -1,0 +1,22 @@
+K                5
+K_mode           logarithmic
+mean_nbin        100
+deriv1st_nbin    5
+binmode          rbf-quantile  # rbf = linear centres on 0.5% winsor range; rbf-quantile = empirical-quantile centres + adaptive sigma
+infilename_md    features.dat
+timeseries_file  sp100_IPO_sorted.csv  #wide CSV in datasets/; used by Mains.multislice()
+taumin           1.0
+taumax           1000.0
+offs             1
+warmup_pat       50              #forward-only steps at ticker-to-ticker transitions (k>0)
+trnpat           750             #per-ticker per-block training rows
+vanpat           52              #per-ticker per-block validation rows
+tenpat           200             #per-ticker per-block test rows
+ngenstep         0               #forced to 0 by Mains.multislice()
+outagain_gen     1.0
+fs               1.0
+# block_step = trnpat+vanpat+tenpat = 650; with ~6318 calendar feature rows
+# (csv_len=6324, ROLLING_WINDOW_N=7), we get ~6 blocks per ticker.
+# 10-ticker demo: tech, finance, consumer staples, energy, industrial
+#tickers          AAPL,MSFT,JPM,JNJ,WMT,KO,PG,XOM,BA,CAT #defaults to all tickers if commented out or left empty
+schedule_file    schedule.dat  #written by Mains.multislice(); one row per block

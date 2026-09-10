@@ -1,0 +1,362 @@
+[  109.0s / 28800s] evals=1 best_rmse_validation=0.109273
+[  136.7s / 28800s] evals=2 best_rmse_validation=0.109273
+[  337.7s / 28800s] evals=3 best_rmse_validation=0.0461386
+[  461.2s / 28800s] evals=4 best_rmse_validation=0.0461386
+[  627.8s / 28800s] evals=5 best_rmse_validation=0.0461386
+[  713.1s / 28800s] evals=6 best_rmse_validation=0.0461386
+[  838.8s / 28800s] evals=7 best_rmse_validation=0.0461386
+[  961.0s / 28800s] evals=8 best_rmse_validation=0.0461386
+[ 1083.0s / 28800s] evals=9 best_rmse_validation=0.0423572
+[ 1184.7s / 28800s] evals=10 best_rmse_validation=0.0423572
+[ 1359.7s / 28800s] evals=11 best_rmse_validation=0.0423572
+[ 1463.1s / 28800s] evals=12 best_rmse_validation=0.0423572
+[ 1687.7s / 28800s] evals=13 best_rmse_validation=0.0423572
+[ 1817.9s / 28800s] evals=14 best_rmse_validation=0.0423572
+[ 1939.7s / 28800s] evals=15 best_rmse_validation=0.0423572
+[ 2047.8s / 28800s] evals=16 best_rmse_validation=0.0423572
+[ 2238.1s / 28800s] evals=17 best_rmse_validation=0.0423572
+[ 2367.2s / 28800s] evals=18 best_rmse_validation=0.0423572
+[ 2468.8s / 28800s] evals=19 best_rmse_validation=0.0423572
+[ 2585.2s / 28800s] evals=20 best_rmse_validation=0.0423572
+[ 2711.0s / 28800s] evals=21 best_rmse_validation=0.0423572
+[ 2815.4s / 28800s] evals=22 best_rmse_validation=0.0423572
+[ 2963.6s / 28800s] evals=23 best_rmse_validation=0.0423572
+[ 3266.8s / 28800s] evals=24 best_rmse_validation=0.0423572
+[ 3386.1s / 28800s] evals=25 best_rmse_validation=0.0422686
+[ 3513.2s / 28800s] evals=26 best_rmse_validation=0.0414226
+[ 3652.2s / 28800s] evals=27 best_rmse_validation=0.0414226
+[ 3765.9s / 28800s] evals=28 best_rmse_validation=0.0414226
+[ 3891.4s / 28800s] evals=29 best_rmse_validation=0.0414226
+[ 3891.4s / 28800s] evals=30 best_rmse_validation=0.0414226
+[ 4177.4s / 28800s] evals=31 best_rmse_validation=0.0414226
+[ 4303.9s / 28800s] evals=32 best_rmse_validation=0.0414226
+[ 4431.8s / 28800s] evals=33 best_rmse_validation=0.0414226
+[ 4671.8s / 28800s] evals=34 best_rmse_validation=0.0414226
+[ 4962.6s / 28800s] evals=35 best_rmse_validation=0.0414226
+[ 5091.1s / 28800s] evals=36 best_rmse_validation=0.0414226
+[ 5215.5s / 28800s] evals=37 best_rmse_validation=0.0414226
+[ 5341.7s / 28800s] evals=38 best_rmse_validation=0.0414226
+[ 5464.2s / 28800s] evals=39 best_rmse_validation=0.0414226
+[ 5464.2s / 28800s] evals=40 best_rmse_validation=0.0414226
+[ 5464.2s / 28800s] evals=41 best_rmse_validation=0.0414226
+[ 5464.2s / 28800s] evals=42 best_rmse_validation=0.0414226
+[ 5586.3s / 28800s] evals=43 best_rmse_validation=0.0397438
+[ 5713.2s / 28800s] evals=44 best_rmse_validation=0.0397438
+[ 5839.7s / 28800s] evals=45 best_rmse_validation=0.0397438
+[ 5839.7s / 28800s] evals=46 best_rmse_validation=0.0397438
+[ 5962.4s / 28800s] evals=47 best_rmse_validation=0.0397438
+[ 5962.4s / 28800s] evals=48 best_rmse_validation=0.0397438
+[ 5962.4s / 28800s] evals=49 best_rmse_validation=0.0397438
+[ 6089.1s / 28800s] evals=50 best_rmse_validation=0.0397438
+[ 6220.2s / 28800s] evals=51 best_rmse_validation=0.0397438
+[ 6345.1s / 28800s] evals=52 best_rmse_validation=0.0397438
+[ 6470.2s / 28800s] evals=53 best_rmse_validation=0.0397438
+[ 6470.2s / 28800s] evals=54 best_rmse_validation=0.0397438
+[ 6470.2s / 28800s] evals=55 best_rmse_validation=0.0397438
+[ 6597.0s / 28800s] evals=56 best_rmse_validation=0.0397438
+[ 6715.5s / 28800s] evals=57 best_rmse_validation=0.0397438
+[ 6838.2s / 28800s] evals=58 best_rmse_validation=0.0397438
+[ 6960.4s / 28800s] evals=59 best_rmse_validation=0.0397438
+[ 7084.9s / 28800s] evals=60 best_rmse_validation=0.0397438
+[ 7206.8s / 28800s] evals=61 best_rmse_validation=0.0397438
+[ 7330.5s / 28800s] evals=62 best_rmse_validation=0.0397438
+[ 7454.7s / 28800s] evals=63 best_rmse_validation=0.0397438
+[ 7579.1s / 28800s] evals=64 best_rmse_validation=0.0397438
+[ 7701.5s / 28800s] evals=65 best_rmse_validation=0.0397438
+[ 7825.6s / 28800s] evals=66 best_rmse_validation=0.0397438
+[ 7947.5s / 28800s] evals=67 best_rmse_validation=0.0393036
+[ 8068.6s / 28800s] evals=68 best_rmse_validation=0.0393036
+[ 8200.9s / 28800s] evals=69 best_rmse_validation=0.0393036
+[ 8310.6s / 28800s] evals=70 best_rmse_validation=0.0393036
+[ 8432.4s / 28800s] evals=71 best_rmse_validation=0.0393036
+[ 8556.7s / 28800s] evals=72 best_rmse_validation=0.0393036
+[ 8676.8s / 28800s] evals=73 best_rmse_validation=0.0393036
+[ 8801.2s / 28800s] evals=74 best_rmse_validation=0.0393036
+[ 8925.4s / 28800s] evals=75 best_rmse_validation=0.0393036
+[ 9048.1s / 28800s] evals=76 best_rmse_validation=0.0393036
+[ 9048.1s / 28800s] evals=77 best_rmse_validation=0.0393036
+[ 9169.9s / 28800s] evals=78 best_rmse_validation=0.0393036
+[ 9293.9s / 28800s] evals=79 best_rmse_validation=0.0393036
+[ 9293.9s / 28800s] evals=80 best_rmse_validation=0.0393036
+[ 9293.9s / 28800s] evals=81 best_rmse_validation=0.0393036
+[ 9293.9s / 28800s] evals=82 best_rmse_validation=0.0393036
+[ 9413.6s / 28800s] evals=83 best_rmse_validation=0.0393036
+[ 9536.2s / 28800s] evals=84 best_rmse_validation=0.0392966
+[ 9654.7s / 28800s] evals=85 best_rmse_validation=0.0392966
+[ 9776.3s / 28800s] evals=86 best_rmse_validation=0.0392966
+[ 9894.8s / 28800s] evals=87 best_rmse_validation=0.0392966
+[10015.7s / 28800s] evals=88 best_rmse_validation=0.0392966
+[10120.8s / 28800s] evals=89 best_rmse_validation=0.0392966
+[10243.6s / 28800s] evals=90 best_rmse_validation=0.0392966
+[10243.6s / 28800s] evals=91 best_rmse_validation=0.0392966
+[10367.7s / 28800s] evals=92 best_rmse_validation=0.0392966
+[10493.9s / 28800s] evals=93 best_rmse_validation=0.0392966
+[10493.9s / 28800s] evals=94 best_rmse_validation=0.0392966
+[10610.0s / 28800s] evals=95 best_rmse_validation=0.0392966
+[10731.5s / 28800s] evals=96 best_rmse_validation=0.0392966
+[10731.5s / 28800s] evals=97 best_rmse_validation=0.0392966
+[10844.4s / 28800s] evals=98 best_rmse_validation=0.0392966
+[10969.8s / 28800s] evals=99 best_rmse_validation=0.0392966
+[11092.8s / 28800s] evals=100 best_rmse_validation=0.0392966
+[11197.7s / 28800s] evals=101 best_rmse_validation=0.0392966
+[11197.7s / 28800s] evals=102 best_rmse_validation=0.0392966
+[11197.7s / 28800s] evals=103 best_rmse_validation=0.0392966
+[11303.5s / 28800s] evals=104 best_rmse_validation=0.0392966
+[11303.5s / 28800s] evals=105 best_rmse_validation=0.0392966
+[11425.0s / 28800s] evals=106 best_rmse_validation=0.0392966
+[11546.6s / 28800s] evals=107 best_rmse_validation=0.0392966
+[11664.7s / 28800s] evals=108 best_rmse_validation=0.0392966
+[11788.6s / 28800s] evals=109 best_rmse_validation=0.0392966
+[11788.6s / 28800s] evals=110 best_rmse_validation=0.0392966
+[11908.5s / 28800s] evals=111 best_rmse_validation=0.0392966
+[12030.2s / 28800s] evals=112 best_rmse_validation=0.0392966
+[12030.2s / 28800s] evals=113 best_rmse_validation=0.0392966
+[12155.3s / 28800s] evals=114 best_rmse_validation=0.0392966
+[12275.2s / 28800s] evals=115 best_rmse_validation=0.0392966
+[12275.2s / 28800s] evals=116 best_rmse_validation=0.0392966
+[12399.3s / 28800s] evals=117 best_rmse_validation=0.0389029
+[12399.3s / 28800s] evals=118 best_rmse_validation=0.0389029
+[12399.3s / 28800s] evals=119 best_rmse_validation=0.0389029
+[12519.9s / 28800s] evals=120 best_rmse_validation=0.0389029
+[12641.6s / 28800s] evals=121 best_rmse_validation=0.0389029
+[12641.6s / 28800s] evals=122 best_rmse_validation=0.0389029
+[12764.4s / 28800s] evals=123 best_rmse_validation=0.0389029
+[12886.3s / 28800s] evals=124 best_rmse_validation=0.0389029
+[13010.4s / 28800s] evals=125 best_rmse_validation=0.0388271
+[13127.9s / 28800s] evals=126 best_rmse_validation=0.0388271
+[13127.9s / 28800s] evals=127 best_rmse_validation=0.0388271
+[13243.8s / 28800s] evals=128 best_rmse_validation=0.0388271
+[13243.8s / 28800s] evals=129 best_rmse_validation=0.0388271
+[13367.2s / 28800s] evals=130 best_rmse_validation=0.0388271
+[13497.8s / 28800s] evals=131 best_rmse_validation=0.0388271
+[13497.8s / 28800s] evals=132 best_rmse_validation=0.0388271
+[13619.6s / 28800s] evals=133 best_rmse_validation=0.0388271
+[13746.3s / 28800s] evals=134 best_rmse_validation=0.0388271
+[13870.2s / 28800s] evals=135 best_rmse_validation=0.0388271
+[13994.7s / 28800s] evals=136 best_rmse_validation=0.0388271
+[14118.1s / 28800s] evals=137 best_rmse_validation=0.0388271
+[14118.1s / 28800s] evals=138 best_rmse_validation=0.0388271
+[14118.1s / 28800s] evals=139 best_rmse_validation=0.0388271
+[14234.3s / 28800s] evals=140 best_rmse_validation=0.0388271
+[14234.3s / 28800s] evals=141 best_rmse_validation=0.0388271
+[14234.3s / 28800s] evals=142 best_rmse_validation=0.0388271
+[14234.3s / 28800s] evals=143 best_rmse_validation=0.0388271
+[14355.9s / 28800s] evals=144 best_rmse_validation=0.0388271
+[14355.9s / 28800s] evals=145 best_rmse_validation=0.0388271
+[14480.2s / 28800s] evals=146 best_rmse_validation=0.0388271
+[14480.2s / 28800s] evals=147 best_rmse_validation=0.0388271
+[14607.0s / 28800s] evals=148 best_rmse_validation=0.0388271
+[14607.0s / 28800s] evals=149 best_rmse_validation=0.0388271
+[14734.0s / 28800s] evals=150 best_rmse_validation=0.0388271
+[14858.5s / 28800s] evals=151 best_rmse_validation=0.0388271
+[14858.5s / 28800s] evals=152 best_rmse_validation=0.0388271
+[14858.5s / 28800s] evals=153 best_rmse_validation=0.0388271
+[14980.3s / 28800s] evals=154 best_rmse_validation=0.0388271
+[15104.9s / 28800s] evals=155 best_rmse_validation=0.0388271
+[15228.9s / 28800s] evals=156 best_rmse_validation=0.0388271
+[15334.6s / 28800s] evals=157 best_rmse_validation=0.0388271
+[15457.9s / 28800s] evals=158 best_rmse_validation=0.0388271
+[15582.2s / 28800s] evals=159 best_rmse_validation=0.0388271
+[15706.7s / 28800s] evals=160 best_rmse_validation=0.0388271
+[15820.7s / 28800s] evals=161 best_rmse_validation=0.0388271
+[15820.7s / 28800s] evals=162 best_rmse_validation=0.0388271
+[15941.6s / 28800s] evals=163 best_rmse_validation=0.0388271
+[16068.0s / 28800s] evals=164 best_rmse_validation=0.0388271
+[16182.0s / 28800s] evals=165 best_rmse_validation=0.0388271
+[16182.0s / 28800s] evals=166 best_rmse_validation=0.0388271
+[16182.0s / 28800s] evals=167 best_rmse_validation=0.0388271
+[16307.1s / 28800s] evals=168 best_rmse_validation=0.0387855
+[16428.9s / 28800s] evals=169 best_rmse_validation=0.0387855
+[16554.6s / 28800s] evals=170 best_rmse_validation=0.0387855
+[16554.6s / 28800s] evals=171 best_rmse_validation=0.0387855
+[16678.1s / 28800s] evals=172 best_rmse_validation=0.0387855
+[16802.0s / 28800s] evals=173 best_rmse_validation=0.0387855
+[16926.9s / 28800s] evals=174 best_rmse_validation=0.0387855
+[16926.9s / 28800s] evals=175 best_rmse_validation=0.0387855
+[17057.6s / 28800s] evals=176 best_rmse_validation=0.0387855
+[17057.6s / 28800s] evals=177 best_rmse_validation=0.0387855
+[17181.6s / 28800s] evals=178 best_rmse_validation=0.0387855
+[17181.6s / 28800s] evals=179 best_rmse_validation=0.0387855
+[17181.6s / 28800s] evals=180 best_rmse_validation=0.0387855
+[17305.9s / 28800s] evals=181 best_rmse_validation=0.0387855
+[17305.9s / 28800s] evals=182 best_rmse_validation=0.0387855
+[17427.6s / 28800s] evals=183 best_rmse_validation=0.0387855
+[17549.6s / 28800s] evals=184 best_rmse_validation=0.0387855
+[17549.6s / 28800s] evals=185 best_rmse_validation=0.0387855
+[17666.4s / 28800s] evals=186 best_rmse_validation=0.0387855
+[17666.4s / 28800s] evals=187 best_rmse_validation=0.0387855
+[17666.4s / 28800s] evals=188 best_rmse_validation=0.0387855
+[17793.2s / 28800s] evals=189 best_rmse_validation=0.0387855
+[17906.1s / 28800s] evals=190 best_rmse_validation=0.0387855
+[17906.1s / 28800s] evals=191 best_rmse_validation=0.0387855
+[18022.0s / 28800s] evals=192 best_rmse_validation=0.0387855
+[18145.1s / 28800s] evals=193 best_rmse_validation=0.0387855
+[18271.6s / 28800s] evals=194 best_rmse_validation=0.0387855
+[18394.2s / 28800s] evals=195 best_rmse_validation=0.0387855
+[18518.2s / 28800s] evals=196 best_rmse_validation=0.0387855
+[18641.0s / 28800s] evals=197 best_rmse_validation=0.0387855
+[18764.7s / 28800s] evals=198 best_rmse_validation=0.0387143
+[18889.6s / 28800s] evals=199 best_rmse_validation=0.0387143
+[19015.1s / 28800s] evals=200 best_rmse_validation=0.0387143
+[19136.9s / 28800s] evals=201 best_rmse_validation=0.0387143
+[19262.5s / 28800s] evals=202 best_rmse_validation=0.0387143
+[19390.9s / 28800s] evals=203 best_rmse_validation=0.0387143
+[19512.3s / 28800s] evals=204 best_rmse_validation=0.0387143
+[19636.3s / 28800s] evals=205 best_rmse_validation=0.0387143
+[19760.8s / 28800s] evals=206 best_rmse_validation=0.0387143
+[19884.5s / 28800s] evals=207 best_rmse_validation=0.0387143
+[20005.0s / 28800s] evals=208 best_rmse_validation=0.0387143
+[20128.4s / 28800s] evals=209 best_rmse_validation=0.0387143
+[20250.9s / 28800s] evals=210 best_rmse_validation=0.0387143
+[20376.1s / 28800s] evals=211 best_rmse_validation=0.0387143
+[20376.1s / 28800s] evals=212 best_rmse_validation=0.0387143
+[20497.6s / 28800s] evals=213 best_rmse_validation=0.0387143
+[20622.1s / 28800s] evals=214 best_rmse_validation=0.0387143
+[20746.8s / 28800s] evals=215 best_rmse_validation=0.0387143
+[20866.5s / 28800s] evals=216 best_rmse_validation=0.0387143
+[20866.5s / 28800s] evals=217 best_rmse_validation=0.0387143
+[20866.5s / 28800s] evals=218 best_rmse_validation=0.0387143
+[20988.5s / 28800s] evals=219 best_rmse_validation=0.0387143
+[21114.6s / 28800s] evals=220 best_rmse_validation=0.0387143
+[21114.6s / 28800s] evals=221 best_rmse_validation=0.0387143
+[21240.9s / 28800s] evals=222 best_rmse_validation=0.0387143
+[21365.0s / 28800s] evals=223 best_rmse_validation=0.0387143
+[21365.0s / 28800s] evals=224 best_rmse_validation=0.0387143
+[21365.0s / 28800s] evals=225 best_rmse_validation=0.0387143
+[21491.4s / 28800s] evals=226 best_rmse_validation=0.0387143
+[21616.0s / 28800s] evals=227 best_rmse_validation=0.0387143
+[21616.0s / 28800s] evals=228 best_rmse_validation=0.0387143
+[21616.0s / 28800s] evals=229 best_rmse_validation=0.0387143
+[21616.0s / 28800s] evals=230 best_rmse_validation=0.0387143
+[21742.3s / 28800s] evals=231 best_rmse_validation=0.0387143
+[21742.3s / 28800s] evals=232 best_rmse_validation=0.0387143
+[21863.8s / 28800s] evals=233 best_rmse_validation=0.0387143
+[21987.8s / 28800s] evals=234 best_rmse_validation=0.0387143
+[21987.8s / 28800s] evals=235 best_rmse_validation=0.0387143
+[21987.8s / 28800s] evals=236 best_rmse_validation=0.0387143
+[21987.8s / 28800s] evals=237 best_rmse_validation=0.0387143
+[22117.1s / 28800s] evals=238 best_rmse_validation=0.0387143
+[22117.1s / 28800s] evals=239 best_rmse_validation=0.0387143
+[22117.1s / 28800s] evals=240 best_rmse_validation=0.0387143
+[22240.9s / 28800s] evals=241 best_rmse_validation=0.0387143
+[22240.9s / 28800s] evals=242 best_rmse_validation=0.0387143
+[22364.4s / 28800s] evals=243 best_rmse_validation=0.0387143
+[22364.4s / 28800s] evals=244 best_rmse_validation=0.0387143
+[22364.4s / 28800s] evals=245 best_rmse_validation=0.0387143
+[22364.4s / 28800s] evals=246 best_rmse_validation=0.0387143
+[22487.2s / 28800s] evals=247 best_rmse_validation=0.0387143
+[22610.6s / 28800s] evals=248 best_rmse_validation=0.0387143
+[22734.6s / 28800s] evals=249 best_rmse_validation=0.0386507
+[22860.7s / 28800s] evals=250 best_rmse_validation=0.0386507
+[22860.7s / 28800s] evals=251 best_rmse_validation=0.0386507
+[22860.7s / 28800s] evals=252 best_rmse_validation=0.0386507
+[22860.7s / 28800s] evals=253 best_rmse_validation=0.0386507
+[22860.7s / 28800s] evals=254 best_rmse_validation=0.0386507
+[22969.9s / 28800s] evals=255 best_rmse_validation=0.0386507
+[23093.8s / 28800s] evals=256 best_rmse_validation=0.0386507
+[23093.8s / 28800s] evals=257 best_rmse_validation=0.0386507
+[23093.8s / 28800s] evals=258 best_rmse_validation=0.0386507
+[23093.8s / 28800s] evals=259 best_rmse_validation=0.0386507
+[23093.8s / 28800s] evals=260 best_rmse_validation=0.0386507
+[23220.4s / 28800s] evals=261 best_rmse_validation=0.0386507
+[23220.4s / 28800s] evals=262 best_rmse_validation=0.0386507
+[23336.4s / 28800s] evals=263 best_rmse_validation=0.0386507
+[23457.9s / 28800s] evals=264 best_rmse_validation=0.0386507
+[23457.9s / 28800s] evals=265 best_rmse_validation=0.0386507
+[23585.9s / 28800s] evals=266 best_rmse_validation=0.0386507
+[23709.8s / 28800s] evals=267 best_rmse_validation=0.0386507
+[23833.4s / 28800s] evals=268 best_rmse_validation=0.0386507
+[23955.2s / 28800s] evals=269 best_rmse_validation=0.0386507
+[23955.2s / 28800s] evals=270 best_rmse_validation=0.0386507
+[24081.4s / 28800s] evals=271 best_rmse_validation=0.0386507
+[24081.4s / 28800s] evals=272 best_rmse_validation=0.0386507
+[24203.2s / 28800s] evals=273 best_rmse_validation=0.0386507
+[24203.2s / 28800s] evals=274 best_rmse_validation=0.0386507
+[24323.5s / 28800s] evals=275 best_rmse_validation=0.0386507
+[24437.6s / 28800s] evals=276 best_rmse_validation=0.0386507
+[24561.2s / 28800s] evals=277 best_rmse_validation=0.0386507
+[24561.2s / 28800s] evals=278 best_rmse_validation=0.0386507
+[24677.5s / 28800s] evals=279 best_rmse_validation=0.0386507
+[24677.5s / 28800s] evals=280 best_rmse_validation=0.0386507
+[24677.5s / 28800s] evals=281 best_rmse_validation=0.0386507
+[24677.5s / 28800s] evals=282 best_rmse_validation=0.0386507
+[24677.5s / 28800s] evals=283 best_rmse_validation=0.0386507
+[24801.5s / 28800s] evals=284 best_rmse_validation=0.0386507
+[24801.5s / 28800s] evals=285 best_rmse_validation=0.0386507
+[24925.2s / 28800s] evals=286 best_rmse_validation=0.0386507
+[25049.7s / 28800s] evals=287 best_rmse_validation=0.0386507
+[25049.7s / 28800s] evals=288 best_rmse_validation=0.0386507
+[25173.5s / 28800s] evals=289 best_rmse_validation=0.0386507
+[25173.5s / 28800s] evals=290 best_rmse_validation=0.0386507
+[25295.6s / 28800s] evals=291 best_rmse_validation=0.0386507
+[25420.0s / 28800s] evals=292 best_rmse_validation=0.0386507
+[25546.9s / 28800s] evals=293 best_rmse_validation=0.0386507
+[25546.9s / 28800s] evals=294 best_rmse_validation=0.0386507
+[25546.9s / 28800s] evals=295 best_rmse_validation=0.0386507
+[25546.9s / 28800s] evals=296 best_rmse_validation=0.0386507
+[25546.9s / 28800s] evals=297 best_rmse_validation=0.0386507
+[25673.5s / 28800s] evals=298 best_rmse_validation=0.0386507
+[25673.5s / 28800s] evals=299 best_rmse_validation=0.0386507
+[25673.5s / 28800s] evals=300 best_rmse_validation=0.0386507
+[25800.5s / 28800s] evals=301 best_rmse_validation=0.0386507
+[25800.5s / 28800s] evals=302 best_rmse_validation=0.0386507
+[25800.5s / 28800s] evals=303 best_rmse_validation=0.0386507
+[25921.8s / 28800s] evals=304 best_rmse_validation=0.0386507
+[26047.9s / 28800s] evals=305 best_rmse_validation=0.0386507
+[26155.1s / 28800s] evals=306 best_rmse_validation=0.0386507
+[26155.1s / 28800s] evals=307 best_rmse_validation=0.0386507
+[26276.8s / 28800s] evals=308 best_rmse_validation=0.0386507
+[26276.8s / 28800s] evals=309 best_rmse_validation=0.0386507
+[26400.8s / 28800s] evals=310 best_rmse_validation=0.0386507
+[26400.8s / 28800s] evals=311 best_rmse_validation=0.0386507
+[26525.4s / 28800s] evals=312 best_rmse_validation=0.0386507
+[26525.4s / 28800s] evals=313 best_rmse_validation=0.0386507
+[26525.4s / 28800s] evals=314 best_rmse_validation=0.0386507
+[26525.4s / 28800s] evals=315 best_rmse_validation=0.0386507
+[26635.1s / 28800s] evals=316 best_rmse_validation=0.0386507
+[26763.9s / 28800s] evals=317 best_rmse_validation=0.0386507
+[26763.9s / 28800s] evals=318 best_rmse_validation=0.0386507
+[26877.3s / 28800s] evals=319 best_rmse_validation=0.0386507
+[26995.9s / 28800s] evals=320 best_rmse_validation=0.0386507
+[26995.9s / 28800s] evals=321 best_rmse_validation=0.0386507
+[26995.9s / 28800s] evals=322 best_rmse_validation=0.0386507
+[26995.9s / 28800s] evals=323 best_rmse_validation=0.0386507
+[27118.2s / 28800s] evals=324 best_rmse_validation=0.0386507
+[27118.2s / 28800s] evals=325 best_rmse_validation=0.0386507
+[27245.2s / 28800s] evals=326 best_rmse_validation=0.0386507
+[27372.0s / 28800s] evals=327 best_rmse_validation=0.0386507
+[27499.7s / 28800s] evals=328 best_rmse_validation=0.0386507
+[27499.7s / 28800s] evals=329 best_rmse_validation=0.0386507
+[27622.0s / 28800s] evals=330 best_rmse_validation=0.0386507
+[27745.0s / 28800s] evals=331 best_rmse_validation=0.0386507
+[27745.0s / 28800s] evals=332 best_rmse_validation=0.0386507
+[27745.0s / 28800s] evals=333 best_rmse_validation=0.0386507
+[27745.0s / 28800s] evals=334 best_rmse_validation=0.0386507
+[27745.0s / 28800s] evals=335 best_rmse_validation=0.0386507
+[27867.9s / 28800s] evals=336 best_rmse_validation=0.0386507
+[27867.9s / 28800s] evals=337 best_rmse_validation=0.0386507
+[27990.5s / 28800s] evals=338 best_rmse_validation=0.0386507
+[28103.2s / 28800s] evals=339 best_rmse_validation=0.0386507
+[28216.8s / 28800s] evals=340 best_rmse_validation=0.0386507
+[28341.1s / 28800s] evals=341 best_rmse_validation=0.0386507
+[28341.1s / 28800s] evals=342 best_rmse_validation=0.0386507
+[28341.1s / 28800s] evals=343 best_rmse_validation=0.0386507
+[28462.4s / 28800s] evals=344 best_rmse_validation=0.0386507
+[28462.4s / 28800s] evals=345 best_rmse_validation=0.0386507
+[28462.4s / 28800s] evals=346 best_rmse_validation=0.0386507
+[28568.1s / 28800s] evals=347 best_rmse_validation=0.0386507
+[28689.5s / 28800s] evals=348 best_rmse_validation=0.0386507
+[28816.0s / 28800s] evals=349 best_rmse_validation=0.0386507
+
+=== Best after time budget ===
+  objective       = rmse_validation (fixed in v2)
+  K               = 14
+  K_mode          = logarithmic
+  mean_nbin       = 37
+  deriv1st_nbin   = 13
+  taumax          = 1500.0
+  rmse_validation (minimized) = 0.03865072262677284
+  rmse_train       = 0.030243256987401622
+  rmse_validation  = 0.03865072262677284
+  rmse_unseen      = 0.03901716882164255
+  rmse_persistence = 0.0011795044416679525  (naive y_t -> y_{t+offs}=y_t baseline; any model worth its salt should beat this)

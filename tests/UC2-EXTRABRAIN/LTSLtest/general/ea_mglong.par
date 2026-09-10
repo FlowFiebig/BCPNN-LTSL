@@ -1,0 +1,16 @@
+K                6
+K_mode           logarithmic
+mean_nbin        97
+deriv1st_nbin    62
+binmode          rbf
+infilename_md    features.dat
+timeseries_file  mgdata.pkl
+taumin           0.001
+taumax           1.70045211839077
+offs             1
+trnpat           87576
+vanpat           2000
+tenpat           2000
+ngenstep         250
+outagain_gen     0.016150061583165492
+tmax             200000

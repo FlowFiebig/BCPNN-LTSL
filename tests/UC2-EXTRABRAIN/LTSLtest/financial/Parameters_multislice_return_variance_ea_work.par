@@ -1,0 +1,20 @@
+K                14
+K_mode           logarithmic
+feature_set      return_variance
+return_nbin      2
+variance_nbin    20
+variance_window  19
+binmode          rbf  # rbf = linear centres on 0.5% winsor range; rbf-quantile = empirical-quantile centres + adaptive sigma
+infilename_md    features.dat
+timeseries_file  sp100_IPO_sorted.csv
+taumin           1.0
+taumax           881.3027126677279
+offs             1
+warmup_pat       100
+trnpat           500
+vanpat           250
+tenpat           250
+ngenstep         0
+outagain_gen     1.0
+fs               1.0
+schedule_file    schedule.dat

@@ -1,0 +1,24 @@
+K                3
+K_mode           logarithmic
+feature_set      return_variance
+return_nbin      50             #decode-target channel (log return; displayed as ratio via exp); C++ alias of mean_nbin
+variance_nbin    50               #secondary channel (trailing log-return variance); C++ alias of deriv1st_nbin
+variance_window  3                #trailing log-return variance window; also feature/calendar align
+binmode          rbf-quantile  # rbf = linear centres on 0.5% winsor range; rbf-quantile = empirical-quantile centres + adaptive sigma
+infilename_md    features.dat
+timeseries_file  sp100_IPO_sorted.csv  #wide CSV in datasets/; used by Mains.multislice()
+taumin           1.0
+taumax           100.0
+offs             1
+warmup_pat       0               #forward-only steps at ticker-to-ticker transitions (k>0)
+trnpat           890             #per-ticker per-block training rows
+vanpat           10              #per-ticker per-block validation rows
+tenpat           100             #per-ticker per-block test rows
+ngenstep         0               #forced to 0 by Mains.multislice()
+outagain_gen     1.0
+fs               1.0
+# block_step = trnpat+vanpat+tenpat = 1000; with ~6318 calendar feature rows
+# (csv_len=6324, variance_window=7), we get ~6 blocks per ticker.
+# 10-ticker demo: tech, finance, consumer staples, energy, industrial
+tickers         NFLX #defaults to all tickers if commented out or left empty
+schedule_file    schedule.dat  #written by Mains.multislice(); one row per block
